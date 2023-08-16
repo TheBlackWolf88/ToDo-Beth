@@ -4,6 +4,9 @@
       "module": "esnext",
       "target": "esnext",
       "moduleResolution": "node",
+      "jsx": "react-jsx",
+      "jsxFragmentFactory": "Fragment",
+      "jsxImportSource": "hono/jsx",
       // "bun-types" is the important part
       "types": ["bun-types"]
     }
