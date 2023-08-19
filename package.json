@@ -2,12 +2,16 @@
   "version": "1.0.107",
   "name": "todoHtmx",
   "devDependencies": {
+    "@types/uuid": "^9.0.2",
     "bun-types": "latest",
     "typed-html": "^3.0.1"
   },
   "dependencies": {
+    "@libsql/client": "^0.3.1",
+    "dotenv": "^16.3.1",
     "hono": "^2.2.5",
-    "twind": "^0.16.19"
+    "twind": "^0.16.19",
+    "uuid": "^9.0.0"
   },
   "scripts": {
     "start": "bun run src/index.ts"
