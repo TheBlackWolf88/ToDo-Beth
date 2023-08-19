@@ -25,7 +25,7 @@ src/deps/zig-clap/.github
 src/deps/zig-clap/.gitattributes
 out
 outdir
-
+.env
 .trace
 cover
 coverage
